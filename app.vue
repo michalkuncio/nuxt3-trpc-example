@@ -2,7 +2,7 @@
 const { $client } = useNuxtApp();
 
 // for client side request
-const data = await $client.getBook.query({ id: 3 });
+const data = await $client.getBook.query({ id: 1 });
 
 // for server side request
 // const { data } = await useAsyncData(() => $client.getBook.query({ id: 1 }));
